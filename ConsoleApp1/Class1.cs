@@ -1,9 +1,9 @@
 ﻿using System;
 
-public class Class2
+public class Class1
 {
-	public Class2()
+	public Class1()
 	{
-		
+
 	}
 }
