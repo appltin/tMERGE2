@@ -8,7 +8,7 @@ public class Class1
         int count = 0;
         foreach (char c in input.ToLower())
         {
-            if ("aeiou".Contains(c))
+            if ("aeio2".Contains(c))
                 count++;
         }
         return count;
