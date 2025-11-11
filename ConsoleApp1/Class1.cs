@@ -14,7 +14,7 @@ namespace ConsoleApp1
             foreach (char c in input.ToLower())
             {
                 if ("a".Contains(c))
-                    count++;
+                    count--;
             }
             return count;
         }
