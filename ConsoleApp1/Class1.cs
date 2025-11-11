@@ -13,7 +13,7 @@ namespace ConsoleApp1
             int count = 0;
             foreach (char c in input.ToLower())
             {
-                if ("aeiy".Contains(c))
+                if ("a".Contains(c))
                     count++;
             }
             return count;
