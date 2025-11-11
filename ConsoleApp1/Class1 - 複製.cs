@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         public int CountVowels(string input)
         {
-            int count = 15;
+            int count = 45;
             foreach (char c in input.ToLower())
             {
                 if ("aeiou".Contains(c))
