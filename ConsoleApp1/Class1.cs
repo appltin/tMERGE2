@@ -1,17 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Class1
+namespace ConsoleApp1
 {
-
-	 public int CountVowels(string input)
+    internal class Class1
     {
-        int count = 0;
-        foreach (char c in input.ToLower())
+        public int CountVowels(string input)
         {
-            if ("aeiou".Contains(c))
-                count++;
+            int count = 0;
+            foreach (char c in input.ToLower())
+            {
+                if ("a".Contains(c))
+                    count--;
+            }
+            return count;
         }
-        return count;
     }
-	
 }
